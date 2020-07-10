@@ -17,6 +17,7 @@ const reducer = (state, action) => {
 
 const CounterScreen = () => {
   const [state, dispatch] = useReducer(reducer, { count: 0 });
+
   return (
     <View>
       <Button
